@@ -1,0 +1,110 @@
+<!DOCTYPE html5>
+<html lang="es">
+ <head>
+        <link rel="stylesheet" href = "Clinica.css">
+        <link rel="stylesheet" href = "form.css">
+            <meta charset ="iso-8559-1">
+            <meta name = description content = "Clinica Veterinaria Caninos Y Felinos">
+             <title>Clinica Veterinaria Caninos Y Felinos</title>
+    </head>
+        <body bgcolor="#FFFFCC">
+        <center><img src="Clinica.png" ></center>
+        <nav>
+            <ul>
+                <li> <a href="/">SERVICIOS</a>   </li>
+                <li> <a href="/">PRODUCTOS</a>   </li>
+                <li> <a href="/">GUARDERIA</a>   </li>
+                <li> <a href="/">PROMOCIONES</a> </li>
+            </ul>
+        </nav>
+                   <article>
+                       <h2>Cuidados Y Educacion Para Su Perro </h2>
+                       <img src="https://imagenes.elpais.com/resizer/3Te8-EEwo6Q2IhPOOLZe5KGu-78=/1200x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/AMH2ADNVDVDZBOLV2UVWWV4I4E.jpg">
+                       <p>
+                        En general, es importante procurar una alimentación saludable para ellos,
+                        así como favorecer su actividad física y estimular su socialización. 
+                        También es fundamental ofrecerle cuidados y revisiones veterinarias para controlar 
+                        su estado de salud y mejorar su calidad de vida.
+                           
+                       </p>
+                       <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiX7qqP1Nb6AhXgmIQIHZgKAT4QFnoECBoQAw&url=https%3A%2F%2Fpostgradoveterinaria.com%2Fcuidados-perro-recomendaciones-basicas%2F%23%3A~%3Atext%3DC%25C3%25B3mo%2520cuidar%2520a%2520un%2520perro%2C-Cuidar%2520a%2520un%26text%3DEn%2520general%252C%2520es%2520importante%2520procurar%2Cmejorar%2520su%2520calidad%2520de%2520vida.&usg=AOvVaw18XKdix7PDoa7vfimrq1lj">Ver más...</a>
+                       <b></b>
+                   </article>
+                   <br>
+                   <br>
+                        <article>
+                       <h2>Salir a pasear Con tu Mascota</h2>
+                       <img src="https://www.prensalibre.com/wp-content/uploads/2021/10/ACE-09102021-MASCOTAS_62831677.jpg?quality=52&w=760&h=430&crop=1">
+                       <p>
+                           Las mascotas llegan a ser tan importantes para una familia, que son tratadas como un integrante más y el cariño
+                           es mutuo. Sin embargo siempre he considerado que tratar a un animal como una persona también es una forma de
+                           maltrato animal. Considero que ellos deben ocupar un lugar importante y debemos respetarlos, esto sin desconocer
+                           su naturaleza.
+                       </p>
+                       <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiopc6f1Nb6AhXeRjABHRqgDQQQFnoECAwQAQ&url=https%3A%2F%2Fwww.pruebaderuta.com%2Fconsejos-para-salir-de-viaje-con-las-mascotas-en-el-auto.php&usg=AOvVaw2vUeENVv2pWk3LAxpxegv9">Ver más....</a>
+                    </article>
+                    <section>
+    <div id="formulario">
+    <form name="SOLICITAR CITA"action="result.php" method="get">
+        <table border-"8">
+            <tr>
+                <h3>SOLICITAR CITA</h3>
+                </tr>
+                <tr>
+                    <td>Mascota:</td>
+                    <td>
+                        <input type="text" name="textMascota">
+                </td>
+                </tr>
+                <tr>
+                    <td>Edad:</td>
+                    <td>
+                        <input type="number" name="number edad">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Raza:</td>
+                    <td>
+                    <input type="text" name="textRaza">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fecha:</td>
+                    <td>
+                        <input type="date" name="trip-start">
+                        <value="2022-12-10">
+                            <min="2022-10-10" max="2022-12-12">
+                        </value>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hora:</td>
+                    <td>
+                        <input type="time" name="dia" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>dueño:</td>
+                    <td>
+                        <input type="text" name="textamo" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="Validar Cita" value="Validar Cita" name="Validar Cita" >
+                    </td>
+                </tr>
+        </table>
+        </form>
+        </div>
+        <footer>
+            <p>Contactenos</p>
+            <p>Linea Gratuita 018000-00001</p>
+            <p>correo:caninosyfelinos@gmail.com</p>
+        </footer>
+                </main>
+                
+
+            
+        </body>                    
+        </html>
